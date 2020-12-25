@@ -1,0 +1,53 @@
+ #####  1] index.htmle  
+
+ ###6.1
+
+1) 대부분의 웹서버는 맨처음 index.html을 찾아보도록 셋팅되어있다. 첫번째는 이걸로 하자 -->
+2) !만 치고 엔터누르면 아래 내용이 완성된다. 아주 편리함.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+3) class 지정 할때 이름에 띄어쓰기가 있으면 두 가지 클래스가 입력되는 것이다.
+
+
+###6.2
+block element modifyer (BEM) : css에서 class 이름짓는 나름의 규칙
+    btn__price     하위 인자는 __로
+    btn--tomato    modifyer는 --로 
+
+
+###6.3
+1) 아이콘달기
+- heroicon 가서 누르면 복사되거든? 그거 붙여넣기.
+  -- 얘는 svg파일이라고 픽셀없이 수학 도식으로만 구성된 아이콘이다.
+
+-Fontawsome 얘가 가장 유명함
+  -- 이거 가입하고 쓰면 kit code주는데 그거 복사해서 적용한 다음에 사용해라.
+  -- body 마지막줄에 적용하면됨. 항상!
+  <script src="https://kit.fontawesome.com/65bbb27fea.js" crossorigin="anonymous"></script>
+  
+  !-- 왜인지 이거 안됐는데 누가 니코한테 질문했더니 답이 이걸 import하라고 옴 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+
+###6.4
+- font-family에 apple뭐시기 폰트가 좀 이쁨 ㅇㅇ
+  -- font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+- google font 가서 폰트 고르자 -> select -> embed
+  -- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap'); css파일 맨 위에 
+
+
+  ###6.6
+- reset css 구글검색해서 봐라, 브라우져가 기본적으로 만들어주는 모든 기본 셋팅을 삭제해줌
+
+

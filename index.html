@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <link rel="stylesheet" href="css/styles.css"/>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Welcome to kokoaTalk </title>
+    </head>
+
+    <body>
+        <div class="status-bar">
+            
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to kokoa Clone</h1>
+            <p class="welcome-header__text">
+                If you have a kokoa Account. log in with your email or phone number.
+            </p>
+        </header>
+
+
+        <!--action에는 어떤 페이지로 data를 보낼건지 지정할 수 있다.
+        method는 두가지 방식이 있는데 하나는 post 다른 하나는 get이다. post는 백엔드 서버에 정보를 전송하는 방식이라 지금은 못하고
+        get을 사용할건데 얘는 보안에 취약해서 password같은걸 사실 얘로 보내면 안된다. 내가 입력한 data값이 url에 보이기 떄문임 함 해바 ㅋㅋ-->
+
+        <form action="friends.html" method="GET" id="login-form">
+            <input name="username" type="text" placeholder="Email or phone number" required/>
+            <input name="password" type="password" placeholder="Password" required/>
+            <input type="submit" value="Log In"/>
+            
+            
+            <a href="#">Find kokoa Account or Password</a>
+        </form>
+
+    
+
+        <script 
+         src="https://kit.fontawesome.com/65bbb27fea.js" 
+         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </body>
+
+</html>
