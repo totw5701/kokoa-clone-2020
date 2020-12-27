@@ -5,25 +5,15 @@
   padding: 15px 0px;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 12px;
-}
-
-.friends-display-link-space {
-  display: flex;
-  height: 110px;
 }
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.friends-screen {
-  padding: 0px var(--horizontal-space);
-}
-
 .friends-screen__channel {
   margin-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 

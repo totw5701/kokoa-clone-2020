@@ -10,6 +10,11 @@
   margin-top: 26px;
 }
 
+.screen-header-space-top {
+  display: flex;
+  height: 120px;
+}
+
 .screen-header__title {
   font-size: 30px;
   font-weight: 700;
@@ -18,4 +23,23 @@
 
 .screen-header__icons span {
   margin-left: 30px;
+}
+
+.screen-header__icons--notice {
+  position: relative;
+}
+
+.screen__header__icons__not {
+  background-color: tomato;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  right: 0px;
+}
+
+.screen__header__icons__not--top {
+  top: -10px;
+  right: -10px;
 }
