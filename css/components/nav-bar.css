@@ -54,7 +54,6 @@
   right: 0px;
 }
 
-/*
 @keyframes appearBtnAnimation {
   from {
     opacity: 0;
@@ -80,4 +79,3 @@
 .nav__btn:last-child {
   animation-delay: 0.3s;
 }
-*/
