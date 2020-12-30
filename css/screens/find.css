@@ -106,3 +106,23 @@
 .open-post__heart-count span {
   margin-left: 4px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform; /* will-change는 브라우저에게 앞으로 일어날 일을 설명해준다. 그냥 대충 애니메이션을 좀 더 좋게 만들어 준다고 생각. 이거 지우고 하트 봐바라, 굉장히 버벅거린다. */
+  animation: heartBeat 1s linear infinite;
+}

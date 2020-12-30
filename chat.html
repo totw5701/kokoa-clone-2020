@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <link rel="stylesheet" href="css/styles.css"/>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Chat - Kokoa Clone </title>
+    </head>
+
+    <body id="chat-screen">
+        <div class="status-bar">
+            
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header-column">
+                <a href="chats.html">
+                  <i class="fas fa-chevron-left fa-2x"></i>
+                </a>
+            </div>
+            <div class="alt-header-column">
+                <h1 class="alt-header__title">David</h1>
+            </div>
+            <div class="alt-header-column">
+                <span>
+                    <i class="fas fa-search fa-2x"></i>
+                    <i class="fas fa-bars fa-2x"></i>
+                </span>
+            </div>
+        </header>
+
+        <div class="alt-screen-header-space-top">  I LOVE YOU   </div>
+
+        <main class="main-screen main-chat">
+
+            <div class="chat__timestamp">
+                Tuesday, June 30, 2020
+            </div>
+
+            <div class="message-row">
+                <img src="css/img/david-oh__photo.jpg">
+                <div class="message-row__content">
+                    <span class="message__author">David</span>
+                    <div class="message__info">
+                        <span class="message__bubble">Hi!</span>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">What's up?</span>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+       <form class="reply">
+           <div class="reply__column">
+             <i class="far fa-plus-square"></i>
+           </div>
+           <div class="reply__column">
+               <input type="text" placeholder="Write a message..."/>
+               <div>
+                  <i class="far fa-smile-beam fa-lg"></i>
+                  <button>
+                    <i class="fas fa-arrow-up fa-lg"></i>
+                  </button>
+               </div>  
+           </div>
+       </form>
+
+
+<!-- nav>ul>li*4>a  엔터치면 아래 처럼 nav안에 ul 안에 li4개 만들어준다 네비게이션바. -->
+
+
+        <script 
+         src="https://kit.fontawesome.com/65bbb27fea.js" 
+         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </body>
+
+</html>

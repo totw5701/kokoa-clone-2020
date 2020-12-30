@@ -24,3 +24,28 @@
   color: rgba(0, 0, 0, 0.4);
   font-weight: 600;
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0; /*element가 사라지는 것은 아니다. 변화 후에도 남아있음*/
+    visibility: hidden; /* 이걸하면 아직 존재는 하지만 뒤에거 클릭 가리지는 않음. */
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
+}

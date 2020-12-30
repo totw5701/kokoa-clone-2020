@@ -1,0 +1,42 @@
+.alt-screen-header-space-top {
+  display: flex;
+  height: 90px;
+}
+
+.settings-list {
+  border-bottom: var(--main-border);
+  padding: 30px 0px;
+}
+
+.settings__setting {
+  padding: 25px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.settings__setting:last-child {
+  border: none;
+}
+
+.settings__setting-column i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.5;
+}
+
+.settings__kokoa-lab i {
+  margin-right: 24px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+.settings__setting-column i:last-child {
+  opacity: unset;
+  color: tomato;
+}
